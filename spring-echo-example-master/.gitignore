@@ -1,0 +1,11 @@
+build/
+target/
+uploads/
+.settings/
+.mvn/
+.project
+.classpath
+.springBeans
+.gradle
+*.log
+*.sql
