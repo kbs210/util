@@ -1,0 +1,21 @@
+server:
+  port: 4444
+  error:
+    whitelabel:
+      enabled: false
+  compression:
+    enabled: false
+
+spring:
+  web:
+    resources:
+      add-mappings: false
+  jackson:
+    serialization:
+      indent-output: true
+
+cryption:
+  seed:
+    enable: true
+    pbszUserKey: 12345678
+    pbszIV: 987654321

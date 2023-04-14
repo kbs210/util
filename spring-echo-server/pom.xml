@@ -53,6 +53,18 @@
 			<version>${spring.boot.version}</version>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-configuration-processor -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<version>3.0.5</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.json/json -->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230227</version>
+		</dependency>
 	</dependencies>
 
 
